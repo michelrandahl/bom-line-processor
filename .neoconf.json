@@ -1,0 +1,9 @@
+{
+  "neoconf": {
+    "plugins": {
+      "rust_analyzer": {
+        "enabled": true
+      }
+    }
+  }
+}

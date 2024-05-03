@@ -1,0 +1,37 @@
+vR:1-4
+vR:5,10-13,61-64,78-81
+vR:6-9
+vR:14-17
+vR:18-21
+vR:22,23,56
+vR:24-30,53-55,57-60
+vR:31,32,35-38,45-48,51,52
+vR:33,34
+vR:39-44,49,50,69
+vR:65-68,70-77,82-89
+vR:90-93
+vR:94-97
+vL:1,2
+vC:1,42-46
+vC:2-5,10-13,18,19,26,29,34,37-39,47-50
+vC:6,7,35,36
+vC:8,9,14-17,30-33,40,41
+vC:20-25,27,28
+vD:1,2
+vD:3-6
+vP:1
+vIC:1
+vIC:2,3,6,7
+vIC:4,5
+vIC:8
+vIC:9,10
+vERROR NoComponentType
+vJP:1
+vERROR NoComponentType
+vJ:1-12
+vLED:1-4
+vERROR NoComponentType
+vR:98-101
+vR:102-105
+vR:106-109
+vERROR NoComponentType

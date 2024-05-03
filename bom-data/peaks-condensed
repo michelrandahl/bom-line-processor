@@ -1,0 +1,39 @@
+pR:10,23
+pR:2,4,6-8
+pR:20,31
+pR:9,25
+pR:3,13,16,28
+pR:12,14,17,22,24,26
+pR:15,27
+pR:18,29
+pR:19,30
+pC:6,7,17,23
+pC:14,15,19,20
+pC:3,5,8-10,12,16,18,21,24
+pC:11,22
+pC:13
+pC:1,2,4
+pL:1
+pD:1,2
+pIC:1
+pIC:2
+pIC:6
+pIC:3
+pIC:4,5
+pQ:2,3
+pQ:1
+pSW:3,5
+pUC:1
+pERROR NoComponentType
+pJ:1-4
+pLED:1-5
+pLED:1-5
+pR:1,5,11,21
+pSW:4,6
+pSW:1,2
+pERROR NoComponentType
+pERROR NoComponentType
+pJP:3
+pJP:2
+pJP:1
+pERROR NoComponentType
