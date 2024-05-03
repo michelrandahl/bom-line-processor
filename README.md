@@ -14,6 +14,10 @@ C:3-6,9,11,13,18
 ```
 which can be inserted into the text field `Customer No` for the relevant component on mouser.
 
+## Process
+Extract the column from the BOM that contains the ids and create a new file with this column. This is simple to do in any excel-like program, just highligt the column, copy and then paste into a new empty plain text file.
+This extracted ids column file can now be used as input to the program.
+
 ## pro-tips
 ### Prefix when ordering for multiple different PCBs
 prefix `g` is short for Mutable Instruments Grids.
