@@ -1,4 +1,4 @@
-# BOM line condenser
+# BOM (Bill Of Materials) line condenser
 
 Problem: When ordering electronics components from mouser you will end up with a lot of small plastic bags, each with a label that simply has the name, quantity and some details about the given component. However, when we want to solder a project with a BOM and instructions, then we refer to components with IDs such as for example C3 for capacitor number 3. All we care about while assembling and soldering is the IDs and not so much all the other details. Naturally mouser cannot know the BOM ids for what you are creating, so you have to fill in the ids yourself when ordering. A challenge when entering the ids, is that the text field in which you can enter the ids is very limited in length, so we need to shorten the id list as much as possible.
 
@@ -32,3 +32,6 @@ Mouser has some excelent in-browser-tooling for uploading CSV BOM files and crea
 
 ## Alternative idea to id-condensing
 An alternative could be that we generate a random ID or a hash of the BOM line, and then we insert this ID in the mouser component order and in the BOM excel sheet... However, it is much nicer if we can simply read the ids directly from the component plastic bag label.
+
+## TODO
+- When ordering multiple projects on mouser where there is an overlap on what components each project use, mouser will overwrite the current label with the label of the most recent added project. This means that, for the given shared component, you will loose all the id information for the previously added projects. We need to find a solution to make it easy to identify these conflicts to easily find them in the order and manually correct these labels.
